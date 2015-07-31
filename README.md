@@ -14,22 +14,22 @@
 #### Screenshots of Fake Messages
    IE Error: <br />
    ![IE Error](/screenshots/IE_Error.jpg?raw=true "IE Error") <br /><br />
-   Something Goofed:
-   ![Something Goofed](/screenshots/Something_Goofed.jpg?raw=true "Something Goofed")
-   Trojan:
-   ![Trojan](/screenshots/Trojan.jpg?raw=true "Trojan")
-   Sphos Failed:
-   ![Sophos Failed](/screenshots/Sophos_Failed.jpg?raw=true "Sophos Failed")
-   Copying SAM:
-   ![Copying SAM](/screenshots/Copying_SAM.jpg?raw=true "Copying SAM")
-   Secure Tunnel:
-   ![Secure Tunnel](/screenshots/Secure_Tunnel.jpg?raw=true "Secure Tunnel")
-   Windows Defender:
-   ![Windows Defender](/screenshots/Windows_Defender.jpg?raw=true "Windows Defender")
-   Self Delete:
-   ![Self Delete](/screenshots/Self_Delete.jpg?raw=true "Self_Delete")
+   Something Goofed: <br />
+   ![Something Goofed](/screenshots/Something_Goofed.jpg?raw=true "Something Goofed") <br /><br />
+   Trojan: <br />
+   ![Trojan](/screenshots/Trojan.jpg?raw=true "Trojan") <br /><br />
+   Sphos Failed: <br />
+   ![Sophos Failed](/screenshots/Sophos_Failed.jpg?raw=true "Sophos Failed") <br /><br />
+   Copying SAM: <br />
+   ![Copying SAM](/screenshots/Copying_SAM.jpg?raw=true "Copying SAM") <br /><br />
+   Secure Tunnel: <br />
+   ![Secure Tunnel](/screenshots/Secure_Tunnel.jpg?raw=true "Secure Tunnel") <br /><br />
+   Windows Defender: <br />
+   ![Windows Defender](/screenshots/Windows_Defender.jpg?raw=true "Windows Defender") <br /><br />
+   Self Delete: <br />
+   ![Self Delete](/screenshots/Self_Delete.jpg?raw=true "Self_Delete") <br /><br />
    Memory Corruption:<br />
-   ![Memory Corruption](/screenshots/Memory_Corruption.jpg?raw=true "Memory Corruption")
+   ![Memory Corruption](/screenshots/Memory_Corruption.jpg?raw=true "Memory Corruption") <br /><br />
    System Reboot:<br />
    ![System Reboot](/screenshots/System_Reboot.jpg?raw=true "System Reboot")
 
