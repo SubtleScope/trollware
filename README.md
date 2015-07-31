@@ -11,16 +11,26 @@
 
 ## Screenshots
 
-   -Screenshots of Fake Messages
+   #### Screenshots of Fake Messages
+   IE Error:
    ![IE Error](/screenshots/IE_Error.jpg?raw=true "IE Error")
+   Something Goofed:
    ![Something Goofed](/screenshots/Something_Goofed.jpg?raw=true "Something Goofed")
+   Trojan:
    ![Trojan](/screenshots/Trojan.jpg?raw=true "Trojan")
+   Sphos Failed:
    ![Sophos Failed](/screenshots/Sophos_Failed.jpg?raw=true "Sophos Failed")
+   Copying SAM:
    ![Copying SAM](/screenshots/Copying_SAM.jpg?raw=true "Copying SAM")
+   Secure Tunnel:
    ![Secure Tunnel](/screenshots/Secure_Tunnel.jpg?raw=true "Secure Tunnel")
+   Windows Defender:
    ![Windows Defender](/screenshots/Windows_Defender.jpg?raw=true "Windows Defender")
+   Self Delete:
    ![Self Delete](/screenshots/Self_Delete.jpg?raw=true "Self_Delete")
+   Memory Corruption:<br />
    ![Memory Corruption](/screenshots/Memory_Corruption.jpg?raw=true "Memory Corruption")
+   System Reboot:<br />
    ![System Reboot](/screenshots/System_Reboot.jpg?raw=true "System Reboot")
 
 ## Liability
