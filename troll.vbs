@@ -288,14 +288,22 @@ If (objFSO.FileExists(soundFile)) Then
     shutSound = path & "\Desktop\Windows Shutdown.wav"
     logoSound = path & "\Desktop\Windows Logoff Sound.wav"
 
-    WshShell.Run "cmd.exe /C copy /Y " & shutSound & "C:\Windows\Media\Windows Shutdown.wav"
-    WshShell.Run "cmd.exe /C copy /Y " & logoSound & "C:\Windows\Media\Windows Logoff Sound.wav"
+    If (objFSO.FileExists(shutSound)) Then
+       WshShell.Run "cmd.exe /C copy /Y " & shutSound & "C:\Windows\Media\Windows Shutdown.wav"
+       WshShell.Run "cmd.exe /C copy /Y " & logoSound & "C:\Windows\Media\Windows Logoff Sound.wav"
+    Else
+       'Do nothing
+    End IF
 Else
     shutSound = path & "\Desktop\Windows XP Shutdown.wav"
     logoSound = path & "\Desktop\Windows XP Logoff Sound.wav"
 
-    WshShell.Run "cmd.exe /C copy /Y " & shutSound & "C:\Windows\Media\Windows XP Shutdown.wav"
-    WshShell.Run "cmd.exe /C copy /Y " & logoSound & "C:\Windows\Media\Windows XP Logoff Sound.wav"
+    If (objFSO.FileExists(shutSound)) Then
+       WshShell.Run "cmd.exe /C copy /Y " & shutSound & "C:\Windows\Media\Windows XP Shutdown.wav"
+       WshShell.Run "cmd.exe /C copy /Y " & logoSound & "C:\Windows\Media\Windows XP Logoff Sound.wav"
+    Else
+       'Do nothing
+    End IF
 End If
 
 '========================'
