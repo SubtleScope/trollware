@@ -11,9 +11,9 @@
 
 ## Screenshots
 
-   #### Screenshots of Fake Messages
-   IE Error:
-   ![IE Error](/screenshots/IE_Error.jpg?raw=true "IE Error")
+#### Screenshots of Fake Messages
+   IE Error: <br />
+   ![IE Error](/screenshots/IE_Error.jpg?raw=true "IE Error") <br /><br />
    Something Goofed:
    ![Something Goofed](/screenshots/Something_Goofed.jpg?raw=true "Something Goofed")
    Trojan:
