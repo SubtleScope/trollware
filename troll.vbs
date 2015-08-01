@@ -301,6 +301,8 @@ If (objFSO.FileExists(soundFile)) Then
     logoSound = path & "\Desktop\Windows Logoff Sound.wav"
 
     If (objFSO.FileExists(shutSound)) Then
+       WshShell.Run "cmd.exe /C takeown /f C:\Windows\Media\*"
+       WshShell.Run "cmd.exe /C icacls C:\Windows\Media\* /grant administrators:F"
        WshShell.Run "cmd.exe /C copy /Y " & shutSound & "C:\Windows\Media\Windows Shutdown.wav"
        WshShell.Run "cmd.exe /C copy /Y " & logoSound & "C:\Windows\Media\Windows Logoff Sound.wav"
     Else
