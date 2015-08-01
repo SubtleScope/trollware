@@ -15,7 +15,6 @@
 
 ## Screenshots
 
-#### Screenshots of Fake Messages
    IE Error: <br />
    ![IE Error](/screenshots/IE_Error.jpg?raw=true "IE Error") <br />
    Something Goofed: <br />
