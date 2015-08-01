@@ -11,6 +11,7 @@
 
 ## Bugs
    - On Windows 2008, reg add asks to overwrite 3 keys, should be forced and silent
+   - May have to manually run the commands to give the Admin group access to C:\Windows\Media and C:\Windows\System32
 
 ## Screenshots
 
