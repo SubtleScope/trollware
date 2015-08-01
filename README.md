@@ -3,6 +3,16 @@
 ## Tested On
  - WindowsXP, Windows Server 2008 R2
 
+## Features
+   - Adds users to the host (Admin and other random users)
+   - Will play an audio file in the background (Never Give You Up works nicely!)
+   - Adds Icons to the Desktop (Chrome, My Computer, IE) that link to a fake series of messages
+   - Replaces Utilmon.exe with cmd.exe
+   - Replaces Login and Shutdown Sounds (My Little Pony or Never Give You Upworknicely)
+   - Randomizes filenames, but could do a better job of hiding them
+   - Creates Scheduled Task for Running the trollware
+   - Creates Registry Keys to add the trollware to Run when a user logs in 
+
 ## Notes
    - You need to provide your own media files for this script (Windows Boot Sound Replacements, etc.)
    - Must be run as an Administrator
