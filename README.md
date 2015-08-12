@@ -6,9 +6,9 @@
 ## Features
    - Adds users to the host (Admin and other random users)
    - Will play an audio file in the background (Never Give You Up works nicely!)
-   - Adds Icons to the Desktop (Chrome, My Computer, IE) that link to a fake series of messages
+   - Adds Icons to the Desktop (Chrome, My Computer, IE) that link to a generate vbs file. The file presents a series of pop-ups to the users.
    - Replaces Utilmon.exe with cmd.exe
-   - Replaces Login and Shutdown Sounds (My Little Pony or Never Give You Upworknicely)
+   - Replaces Login and Shutdown Sounds (My Little Pony or Never Give You Up work nicely)
    - Randomizes filenames, but could do a better job of hiding them
    - Creates Scheduled Task for Running the trollware
    - Creates Registry Keys to add the trollware to Run when a user logs in 
