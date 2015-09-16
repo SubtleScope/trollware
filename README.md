@@ -16,8 +16,8 @@
 ## Notes
    - You need to provide your own media files for this script (Windows Boot Sound Replacements, etc.)
    - Must be run as an Administrator
-   - By default, newer versions of Windows have blocks in place on sensitive system folders like "C:\Windows\Media"
-   -- Need to find a way to override this,soboot sounds can be changed
+   - By default, newer versions of Windows have blocks in place on sensitive system folders like "C:\Windows\Media" - There is a way to do this and it has been added to the script, but it extends the run time by a bit
+   - Need to change from running on Desktop to Temp
 
 ## Bugs
    - On Windows 2008, reg add asks to overwrite 3 keys, should be forced and silent
